@@ -443,26 +443,6 @@ body {
     font-weight: 600;
     position: relative;
 }
-.fixed-top .navbar-brand .brand-bg {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    position: absolute;
-    bottom: 6px;
-    right: -6px;
-    float: left;
-    background: #FFF;
-}
-.nav-fixed .navbar-brand .brand-bg {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    position: absolute;
-    bottom: 6px;
-    right: -6px;
-    float: left;
-    background: #4f9bdd;
-}
 
 .navbar-nav {
     margin-right: auto !important;
@@ -825,17 +805,6 @@ body {
     margin-bottom: 50px;
 }
 
-.about-img::before {
-    position: absolute;
-    left: 0;
-    bottom: -61px;
-    width: 90%;
-    height: 90%;
-    z-index: -1;
-    content: '';
-    background: #4f9bdd;
-
-}
 .box-img {
     position: relative;
 }
