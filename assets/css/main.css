@@ -278,7 +278,7 @@ p {
 
 .section-title h2,
 .section-title-left h2 {
-    color: #f3c26b;
+    color: #4f9bdd;
     display: block;
     text-transform: capitalize;
     font-family: 'Open Sans', sans-serif;
@@ -295,7 +295,7 @@ p {
 .section-title-left h2::before {
     content: " ";
     display: block;
-    background: #f3c26b;
+    background: #4f9bdd;
     width: 50px;
     height: 2px;
     top: 7px;
@@ -322,7 +322,7 @@ p {
 .section-title h3::before {
     content: " ";
     display: block;
-    background: #f3c26b;
+    background: #4f9bdd;
     position: absolute;
     width: 70px;
     height: 2px;
@@ -345,8 +345,8 @@ p {
 }
 .btn-one {
     cursor: pointer;
-    background: #f3c26b;
-    border: 2px solid #f3c26b;
+    background: #4f9bdd;
+    border: 2px solid #4f9bdd;
     -webkit-transition: all .4s;
     display: inline-block;
     color: #fff;
@@ -368,7 +368,7 @@ p {
 .btn-one:hover{
     background: #444 ;
     border: 2px solid #444 ;
-    color: #f3c26b;
+    color: #4f9bdd;
 }
 
 .btn-two {
@@ -392,7 +392,7 @@ p {
 }
 .btn-two:hover {
     background: #444 ;
-    color: #f3c26b ;
+    color: #4f9bdd ;
     border: 2px solid #444 ;
 }
 
@@ -438,7 +438,7 @@ body {
 .nav-fixed .navbar-brand { 
     z-index: 999;
     font-size: 30px;
-    color: #f3c26b !important;
+    color: #4f9bdd !important;
     text-transform: uppercase;
     font-weight: 600;
     position: relative;
@@ -461,7 +461,7 @@ body {
     bottom: 6px;
     right: -6px;
     float: left;
-    background: #f3c26b;
+    background: #4f9bdd;
 }
 
 .navbar-nav {
@@ -494,7 +494,7 @@ body {
     -webkit-transform: scaleX(0);
     -ms-transform: scaleX(0);
     transform: scaleX(0);
-    background: #f3c26b !important;
+    background: #4f9bdd !important;
     opacity: 0;
 }
 .fixed-top .navbar-nav .active>.nav-link:before,
@@ -504,12 +504,12 @@ body {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
     opacity: 1;
-    color: #f3c26b !important;
+    color: #4f9bdd !important;
     background-color: transparent;
 }
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #f3c26b;
+    color: #4f9bdd;
     background-color: transparent;
 }
 .nav-fixed .navbar-nav .active>.nav-link,
@@ -517,7 +517,7 @@ body {
 .nav-fixed .navbar-nav .nav-link.show,
 .nav-fixed .navbar-nav .show>.nav-link
 {
-    color: #f3c26b !important;
+    color: #4f9bdd !important;
     background-color: transparent;
     
 }
@@ -528,7 +528,7 @@ body {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
     opacity: 1;
-    color: #f3c26b !important;
+    color: #4f9bdd !important;
     background-color: transparent;
 }
 
@@ -550,7 +550,7 @@ body {
 .fixed-top .navbar-nav .nav-link.show,
 .fixed-top  .navbar-nav .show>.nav-link
 {
-    color: #f3c26b !important;
+    color: #4f9bdd !important;
 }
 
 .nav-fixed .navbar-nav .nav-item .nav-link {
@@ -589,7 +589,7 @@ body {
     position: relative;
 }
 .fixed-top .social-media-nav li svg:hover {
-    color: #f3c26b;
+    color: #4f9bdd;
 }
 .nav-fixed .social-media-nav li {
     display: inline-block;
@@ -602,7 +602,7 @@ body {
     color: #444;
 }
 .nav-fixed .social-media-nav li svg:hover {
-    color: #f3c26b;
+    color: #4f9bdd;
 }
 /*----------------------------------------------------------------
 					   End Navbar
@@ -646,7 +646,7 @@ body {
 
 
 .info-header h1 {
-    color: #f3c26b;
+    color: #4f9bdd;
     white-space: nowrap;
     margin: 0 0 30px 0px;
     text-transform: capitalize;
@@ -664,7 +664,7 @@ body {
 .info-header h1::before {
     content: " ";
     display: block;
-    background: #f3c26b;
+    background: #4f9bdd;
     width: 50px;
     height: 6px;
     top: 31px;
@@ -714,7 +714,7 @@ body {
     content: "|";
     font-size: 11px;
     position: relative;
-    color: #f3c26b;
+    color: #4f9bdd;
     padding: 0 15px 0 17px;
 }
 .banner-btn {
@@ -742,7 +742,7 @@ body {
     height: 0px;
     margin-bottom: 5px;
     width: 1px;
-    background: #f3c26b;
+    background: #4f9bdd;
     margin-left: 12px;
 }
 
@@ -754,7 +754,7 @@ body {
     transform: rotate(180deg);
 }
 .down:hover .down-two {
-    color: #f3c26b !important;
+    color: #4f9bdd !important;
 }
 
 .down .down-three {
@@ -769,7 +769,7 @@ body {
 
 .down:hover .down-three {
     height: 0px;
-    background: #f3c26b;
+    background: #4f9bdd;
 }
 .down:hover .down-one {
     height: 30px;
@@ -808,7 +808,7 @@ body {
     
 }
 .social-media li a:hover {
-    color: #f3c26b;
+    color: #4f9bdd;
 }
 
 /*----------------------------------------------------------------
@@ -833,7 +833,7 @@ body {
     height: 90%;
     z-index: -1;
     content: '';
-    background: #f3c26b;
+    background: #4f9bdd;
 
 }
 .box-img {
@@ -935,7 +935,7 @@ body {
     transition: all 0.1s;
 }
 .follow-me .social-media-about li a:hover {
-    color: #f3c26b !important;
+    color: #4f9bdd !important;
 }
 /*----------------------------------------------------------------
 					End About Me
@@ -1018,7 +1018,7 @@ body {
     left: 0;
     height: 100%;
     width: 0;
-    background: #f3c26b;
+    background: #4f9bdd;
 }
 
 .skills .skill-box .progress-line > span > .percent-tooltip {
@@ -1114,7 +1114,7 @@ body {
     height: 40px;
     width: 40px;
     background: #fff;
-    color: #f3c26b;
+    color: #4f9bdd;
     line-height: 40px;
     font-size: 20px;
     text-align: center;
@@ -1196,7 +1196,7 @@ body {
     display: block;
     height: 3px;
     width: 30px;
-    background: #f3c26b;
+    background: #4f9bdd;
     bottom: 10px;
     left: 0;
     position: absolute;
@@ -1258,7 +1258,7 @@ body {
 }
 .icon-services span {
     font-size: 40px;
-    color: #f3c26b;
+    color: #4f9bdd;
 }
 .services-item h4 {
     margin-bottom: 10px;
@@ -1342,13 +1342,13 @@ body {
     opacity: 0;
 }
 .list-control li.active {
-    color: #f3c26b;
+    color: #4f9bdd;
 }
 .list-control li.active::before {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
     opacity: 1;
-    color: #f3c26b !important;
+    color: #4f9bdd !important;
     background-color: transparent;
 }
 
@@ -1404,7 +1404,7 @@ body {
     height: 40px;
     width: 40px;
     background: #f9f9f9;
-    color: #f3c26b;
+    color: #4f9bdd;
     line-height: 40px;
     font-size: 20px;
     text-align: center;
@@ -1420,7 +1420,7 @@ body {
 }
 .info-img h5 {
     margin-left: -70px;
-    color: #f3c26b;
+    color: #4f9bdd;
     text-transform: capitalize;
     font-size: 12px;
     font-weight: 600;
@@ -1446,7 +1446,7 @@ body {
 .info-img span::before {
     content: " ";
     display: block;
-    background: #f3c26b;
+    background: #4f9bdd;
     width: 30px;
     height: 3px;
     top: 11px;
@@ -1459,7 +1459,7 @@ body {
 }
 
 .my-work .overlay h5:hover {
-    color: #f3c26b;
+    color: #4f9bdd;
 }
 .my-work .info-img span:hover{ 
     color: #444;
@@ -1483,8 +1483,8 @@ body {
 .testimonials .owl-nav div {
     width: 40px;
     height: 40px;
-    border: 1px solid #f3c26b;
-    color: #f3c26b;
+    border: 1px solid #4f9bdd;
+    color: #4f9bdd;
     text-align: center;
     line-height: 40px;
     font-size: 16px;
@@ -1561,7 +1561,7 @@ body {
     font-size: 13px;
     font-weight: 600;
     line-height: 20px;
-    color: #f3c26b;
+    color: #4f9bdd;
 }
 /*----------------------------------------------------------------
 					End Section Testimonials 
@@ -1624,7 +1624,7 @@ body {
 }
 .date {
     padding-left: 0;
-    color: #f3c26b;
+    color: #4f9bdd;
     font-size: 12px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -1635,7 +1635,7 @@ body {
     padding-right: 5px;
 }
 .date li a {
-    color: #f3c26b;
+    color: #4f9bdd;
 }
 .date li a:hover {
     color: #edbb62;
@@ -1649,7 +1649,7 @@ body {
     margin-bottom: 15px;
 }
 .blog-info .title-post a h5:hover {
-    color: #f3c26b;
+    color: #4f9bdd;
 }
 .blog-info .post-text p {
     font-size: 14px;
@@ -1664,7 +1664,7 @@ body {
     font-size: 13px;
 }
 .blog-info .link:hover {
-    color: #f3c26b;
+    color: #4f9bdd;
 }
 /*----------------------------------------------------------------
                         End Section Blog 
@@ -1721,7 +1721,7 @@ body {
     height: 40px;
     width: 40px;
     background: #f9f9f9;
-    color: #f3c26b;
+    color: #4f9bdd;
     line-height: 40px;
     font-size: 20px;
     text-align: center;
