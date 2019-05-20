@@ -212,7 +212,7 @@ figure{margin-bottom:15px;}
 	border-radius:0;
 	color:#fff;
 	margin-top:-20px;
-	padding:22px 15px 12px 15px;
+	padding:15px 15px 12px 15px;
 	
 }
 	
@@ -223,7 +223,7 @@ figure{margin-bottom:15px;}
 }
 
 .logo{
-	padding:22px 0;
+	padding:8px 0;
 }
 
 .logo img{
@@ -420,14 +420,39 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .intro-wrapper h1 span{
 	color:#00558a;
 }
-
+@media(min-width:320px) and (max-width:767px){
+	.featured-block{
+		margin-bottom: 15px;
+	}
+	.hospital-image img{
+		padding-top: 10px;
+	}
+	#our-team{
+		display: block !important;
+	}
+	.price{
+		text-align: center;
+		float: none;
+	}
+	.logo img{
+		padding: 5px 0 0 !important;
+	}
+	.social_media{
+		margin-top: 25px;
+		margin-bottom: 15px;
+	}
+}
 /*--- Featured Blocks ---*/
 .service-wrapper{
 	padding:30px 0;
 	}
-.service-wrapper h2{
+.service-wrapper h2,
+.intro-wrapper h2{
    color:#00558a;
    font-size:28px;
+   text-align: center;
+   padding-bottom: 10px;
+   margin-bottom:30px;
 	}	
 
 .featured-block{
@@ -945,7 +970,9 @@ article .mod_con_text p {margin-bottom:10px}
 }
 
 
-.overlay1 h2:after{
+.overlay1 h2:after,
+.service-wrapper h2:after,
+.intro-wrapper h2:after{
 	background-color: #3695eb;
 	width:60px;
 	height:3px;
@@ -1232,6 +1259,8 @@ blockquote h5 {
 
 .footer p {
   color: #fff;
+  margin:0;
+  padding-bottom:10px;
 }
 
 .footer .contacts p {
