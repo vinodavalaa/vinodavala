@@ -1,0 +1,42 @@
+.header-top-left img{
+    width: 140px;
+}
+.banner-content h1{
+    font-size: 40px;
+}
+.banner-area .primary-btn{
+	width: 100%;
+}
+.banner-area .primary-btn b{
+	color: #fff;
+}
+.header-btn:hover{
+	background-color: #67bc00; 
+}
+.header-btn{
+	background: transparent;
+	border: 1px solid #67bc00;
+}
+.banner-content ul li{
+	float: left;
+	margin-right: 20px;
+}
+.banner-content ul{
+	width: 55%;
+	margin: 0 auto;
+}
+.single-service img{
+	height: 180px;
+}
+.team-area.section-gap,
+.feature-area.section-gap{
+	background: #f1f1f1;
+}
+.testomial-area.section-gap
+{
+	background: #fff;
+}
+.footer-area.section-gap{
+	background: #000;
+}
+background:#d2e387;
