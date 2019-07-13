@@ -43,3 +43,9 @@
 	color: #000;
 	font-weight: 700;
 }
+.nav-menu>li{
+	margin-left: 20px;
+}
+.nav-menu a:hover{
+	color: #fff;
+}
