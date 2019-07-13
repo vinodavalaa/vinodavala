@@ -39,4 +39,7 @@
 .footer-area.section-gap{
 	background: #000;
 }
-background:#d2e387;
+.nav-menu a{
+	color: #000;
+	font-weight: 700;
+}
