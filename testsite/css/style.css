@@ -73,10 +73,29 @@
 .mobile{
 	display: none;
 }
-
-
-
-
+.menu-active a{
+	color: #fff;
+}
+/* About us page starts */
+.about-us .banner-area{
+	height: 412px;
+}
+.about-content{
+	padding: 106px 0;
+}
+.about-us .section-gap{
+	padding: 54px 0;
+}
+.about-us .service-area.section-gap h4{
+	margin-bottom: 20px;
+}
+.about-us .about-sec{
+	margin-bottom: 15px;
+}
+.about-us .about-sec ul li{
+	list-style-type: disc;
+	margin-left: 20px;
+}
 @media(min-width:320px) and (max-width:767px) {
 	iframe{
 		width: 385px !important;
