@@ -96,6 +96,28 @@
 	list-style-type: disc;
 	margin-left: 20px;
 }
+/* mindset */
+.threeset ul.main-set{
+	margin: 0 auto;
+}
+.threeset ul.main-set li{
+	float: left;
+    width: 33%;
+    font-size: 16px;
+    font-weight: 700;
+    color: #67bc00;
+    margin: 15px auto;
+}
+/* doctors */
+.nagesh img{
+	width: 100%;
+}
+.pb-40{
+	padding-bottom: 10px;
+}
+ul.doc-active li.menu-active a{
+	color: #67bc00;
+}
 @media(min-width:320px) and (max-width:767px) {
 	iframe{
 		width: 385px !important;
@@ -126,5 +148,8 @@
 	}
 	.banner-area .banner-content ul li:nth-child(3) .primary-btn{
 		padding: 0 38px;
+	}
+	.pb-40{
+		padding-bottom: 12px;
 	}
 }
