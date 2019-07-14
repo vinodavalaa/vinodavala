@@ -48,8 +48,21 @@
 	margin-left: 20px;
 }
 .nav-menu li a:hover{
-	color: #af4f9f;
+	color: #fff;
 }
 .open-hour-wrap h1{
 	margin-bottom: 30px;
+}
+.banner-area{
+	background: url(../img/banner3.jpg) center;
+	height: 720px;
+}
+.main-menu .menu-social-icons a{
+	color: #fff !important;
+}
+.main-menu .menu-social-icons a:hover{
+	color: #000 !important;
+}
+.header-top .header-top-right a:first-child{
+	margin-right: -24px;
 }
