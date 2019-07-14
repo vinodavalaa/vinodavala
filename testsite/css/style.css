@@ -118,6 +118,22 @@
 ul.doc-active li.menu-active a{
 	color: #67bc00;
 }
+.book-appoint{
+	color: #fff;
+	background: #67bc00;
+	font-weight: 700;
+	margin-top: 20px;
+}
+.book-appoint:hover{
+	color: #000;
+	background: #fff;
+	border: 1px solid #67bc00;
+}
+.books{
+	margin-top: 30px;
+	font-size: 22px;
+	font-weight: 700;
+}
 @media(min-width:320px) and (max-width:767px) {
 	iframe{
 		width: 385px !important;
@@ -152,4 +168,11 @@ ul.doc-active li.menu-active a{
 	.pb-40{
 		padding-bottom: 12px;
 	}
+	.only-mobile{
+		flex-direction: column-reverse;
+	}
+	.only-mobile p{
+		margin-top: 20px;
+	}
+	
 }
