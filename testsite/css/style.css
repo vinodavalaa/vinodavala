@@ -57,6 +57,10 @@
 	background: url(../img/banner3.jpg) center;
 	height: 720px;
 }
+.banner-content{
+	position: relative;
+	bottom: 60px;
+}
 .main-menu .menu-social-icons a{
 	color: #fff !important;
 }
@@ -65,4 +69,43 @@
 }
 .header-top .header-top-right a:first-child{
 	margin-right: -24px;
+}
+.mobile{
+	display: none;
+}
+
+
+
+
+@media(min-width:320px) and (max-width:767px) {
+	iframe{
+		width: 385px !important;
+	}
+	.banner-content{
+		bottom: 0;
+	}
+	.header-top .header-top-right a:first-child{
+		margin-right: 0;
+	}
+	.header-top .header-top-right a:first-child{
+		padding: 9px 12px;
+	}
+	.mobile{
+		display: block;
+	}
+	.desktop{
+		display: none;
+	}
+	.header-top-left img{
+		width: 52px;
+	}
+	#mobile-nav-toggle{
+		top: 30px;
+	}
+	.banner-area .banner-content ul li:nth-child(2) .primary-btn{
+		padding: 0 43px;
+	}
+	.banner-area .banner-content ul li:nth-child(3) .primary-btn{
+		padding: 0 38px;
+	}
 }
