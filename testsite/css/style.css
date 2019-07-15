@@ -134,6 +134,9 @@ ul.doc-active li.menu-active a{
 	font-size: 22px;
 	font-weight: 700;
 }
+.about-img img{
+	width: 100%;
+}
 @media(min-width:320px) and (max-width:767px) {
 	iframe{
 		width: 385px !important;
