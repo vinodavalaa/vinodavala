@@ -2,7 +2,7 @@
     width: 140px;
 }
 .banner-content h1{
-    font-size: 40px;
+    font-size: 35px;
 }
 /* .banner-area .primary-btn{
 	width: 100%;
@@ -27,6 +27,7 @@
 }
 .single-service img{
 	height: 180px;
+	border-radius: 10px;
 }
 .team-area.section-gap,
 .feature-area.section-gap{
@@ -133,9 +134,17 @@ ul.doc-active li.menu-active a{
 	margin-top: 30px;
 	font-size: 22px;
 	font-weight: 700;
+	text-decoration: underline;
 }
 .about-img img{
 	width: 100%;
+}
+.bold{
+	font-weight: 700;
+}
+.footer-contact{
+	font-size: 26px;
+	color: #fff;
 }
 @media(min-width:320px) and (max-width:767px) {
 	iframe{
