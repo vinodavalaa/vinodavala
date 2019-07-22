@@ -93,7 +93,8 @@
 .about-us .about-sec{
 	margin-bottom: 15px;
 }
-.about-us .about-sec ul li{
+.about-us .about-sec ul li,
+.neurology ul li{
 	list-style-type: disc;
 	margin-left: 20px;
 }
@@ -132,8 +133,8 @@ ul.doc-active li.menu-active a{
 }
 .books{
 	margin-top: 30px;
-	font-size: 22px;
-	font-weight: 700;
+	font-size: 16px;
+	font-weight: 400;
 	text-decoration: underline;
 }
 .about-img img{
