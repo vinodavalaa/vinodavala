@@ -235,9 +235,10 @@ ul.doc-active li.menu-active a {
 }
 
 .testm {
-    height: 105px;
+    height: 100px;
     border-radius: 50%;
 }
+
 
 @media(min-width:320px) and (max-width:767px) {
     iframe {
