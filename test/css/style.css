@@ -4,6 +4,15 @@
 
 .banner-content h1 {
     font-size: 35px;
+    margin-bottom: 38px;
+}
+
+.deaddd ul {
+    margin-bottom: 20px;
+}
+
+.deaddd img {
+    width: 450px !important;
 }
 
 
@@ -11,8 +20,38 @@
 	width: 100%;
 } */
 
+.float h4 {
+    text-align: center;
+    border-bottom: 2px solid #62b900;
+    width: 135px;
+    margin: 0 auto;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.testm {
+    height: 105px;
+    border-radius: 50%;
+}
+
+.psycho-imag img {
+    height: 250px;
+    margin-top: 35px;
+}
+
+.deadd img {
+    width: 450px !important;
+    margin-top: 15px;
+}
+
 .banner-area .primary-btn b {
     color: #fff;
+}
+
+.text-hello {
+    margin-bottom: 30px;
 }
 
 .header-btn:hover {
@@ -130,6 +169,10 @@
     margin-left: 20px;
 }
 
+.neuro ul {
+    margin-bottom: 20px;
+}
+
 
 /* mindset */
 
@@ -137,19 +180,37 @@
     margin: 0 auto;
 }
 
+.threeset ul.main-set+p b,
+.threeset ul.main-set+p+p b,
+.threeset ul.main-set+p+p+p b {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.about-us .about-sec ul {
+    margin-bottom: 20px;
+}
+
 .threeset ul.main-set li {
     float: left;
     width: 33%;
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 700;
-    color: #67bc00;
-    margin: 15px auto;
+    color: #000;
+    margin: 15px auto 30px;
+    text-decoration: underline;
+    list-style-type: none;
 }
 
-.neurology-text ul {
+.psycho ul {
+    margin-bottom: 20px;
+}
+
+
+/* .neurology-text ul {
     width: 50%;
     margin: 0 auto;
-}
+} */
 
 
 /* doctors */
@@ -222,23 +283,6 @@ ul.doc-active li.menu-active a {
     margin-bottom: 20px;
     font-size: 18px;
 }
-
-.float h4 {
-    text-align: center;
-    border-bottom: 2px solid #62b900;
-    width: 135px;
-    margin: 0 auto;
-}
-
-.text-align {
-    text-align: center;
-}
-
-.testm {
-    height: 102px;
-    border-radius: 50%;
-}
-
 
 @media(min-width:320px) and (max-width:767px) {
     iframe {
