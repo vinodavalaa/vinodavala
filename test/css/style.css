@@ -15,6 +15,34 @@
     width: 450px !important;
 }
 
+.testmonials-align .nagesh img {
+    width: 140px;
+}
+
+.testmonials-align .nagesh {
+    text-align: center;
+}
+
+.testmonials-border {
+    border-bottom: 2px solid #67bc00;
+    margin-bottom: 20px;
+}
+
+.testmonials-border .text-align a {
+    color: #67bc00;
+    font-size: 18px;
+}
+
+.testmonials-border .header-text {
+    vertical-align: baseline;
+    align-items: center;
+    display: flex;
+}
+
+.preethi-img img {
+    height: 275px;
+}
+
 
 /* .banner-area .primary-btn{
 	width: 100%;
