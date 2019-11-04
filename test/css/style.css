@@ -43,6 +43,14 @@
     height: 275px;
 }
 
+.book-last img {
+    height: 212px;
+}
+
+.faclities {
+    margin-top: 25px;
+}
+
 
 /* .banner-area .primary-btn{
 	width: 100%;
@@ -243,6 +251,10 @@
 
 /* doctors */
 
+.psycho-imag.hel img {
+    margin-top: 0;
+}
+
 .nagesh img {
     width: 100%;
 }
@@ -253,6 +265,16 @@
     border-bottom: 2px solid #67bc00;
 }
 
+.addict {
+    margin-bottom: 20px;
+    ;
+}
+
+.text-adjuxt {
+    display: flex;
+}
+
+;
 .row.only-mobile.topAlign:last-child {
     border: none;
 }
@@ -265,11 +287,23 @@ ul.doc-active li.menu-active a {
     color: #67bc00;
 }
 
+.counce {
+    margin-top: 20px;
+}
+
+.nagesh.counce img {
+    height: 200px;
+}
+
 .book-appoint {
     color: #fff;
     background: #67bc00;
     font-weight: 700;
     margin-top: 20px;
+}
+
+.counce-text {
+    margin-top: 35px;
 }
 
 .book-appoint:hover {
