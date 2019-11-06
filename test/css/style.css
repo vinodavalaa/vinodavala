@@ -209,9 +209,6 @@
     margin-bottom: 20px;
 }
 
-
-/* mindset */
-
 .threeset ul.main-set {
     margin: 0 auto;
 }
@@ -267,16 +264,46 @@
 
 .addict {
     margin-bottom: 20px;
-    ;
+}
+
+.text-bookalign img {
+    margin-bottom: 15px;
+    height: 150px;
+}
+
+.text-bookalign p {
+    margin-bottom: 0;
 }
 
 .text-adjuxt {
     display: flex;
 }
 
-;
+.about-us .section-gap.facility {
+    padding: 54px 0 35px;
+}
+
+.font-text,
+.font-text b {
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+}
+
+.txt {
+    margin-right: 25px;
+}
+
 .row.only-mobile.topAlign:last-child {
     border: none;
+}
+
+.bullet-alignment {
+    margin-bottom: 15px;
+}
+
+.bullet-alignment-img img {
+    height: 430px;
 }
 
 .pb-40 {
