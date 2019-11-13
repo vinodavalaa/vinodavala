@@ -15,6 +15,10 @@
     width: 450px !important;
 }
 
+.bullet-alignment-1 {
+    margin-top: 20px;
+}
+
 .testmonials-align .nagesh img {
     width: 140px;
 }
@@ -277,6 +281,10 @@
 
 .text-adjuxt {
     display: flex;
+}
+
+.extra {
+    margin-left: 40px;
 }
 
 .about-us .section-gap.facility {
