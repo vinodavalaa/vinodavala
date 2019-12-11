@@ -10,7 +10,6 @@ $(document).ready(function() {
     $(".fullscreen").css("height", window_height)
     $(".fitscreen").css("height", fitscreen);
 
-    //------- Niceselect  js --------//  
 
     if (document.getElementById("default-select")) {
         $('select').niceSelect();
@@ -18,8 +17,6 @@ $(document).ready(function() {
     if (document.getElementById("service-select")) {
         $('select').niceSelect();
     };
-
-    //------- Lightbox  js --------//  
 
     $('.img-gal').magnificPopup({
         type: 'image',
@@ -36,15 +33,7 @@ $(document).ready(function() {
         fixedContentPos: false
     });
 
-    //------- Datepicker  js --------//  
 
-      $( function() {
-        $( "#datepicker" ).datepicker();
-        $( "#datepicker2" ).datepicker();
-      } );
-
-
-    //------- Superfist nav menu  js --------//  
 
     $('.nav-menu').superfish({
         animation: {
@@ -53,7 +42,6 @@ $(document).ready(function() {
         speed: 400
     });
 
-    //------- Mobile Nav  js --------//  
 
     if ($('#nav-menu-container').length) {
         var $mobile_nav = $('#nav-menu-container').clone().prop({
@@ -94,7 +82,6 @@ $(document).ready(function() {
         $("#mobile-nav, #mobile-nav-toggle").hide();
     }
 
-    //------- Smooth Scroll  js --------//  
 
     $('.nav-menu a, #mobile-nav a, .scrollto').on('click', function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -155,7 +142,7 @@ $(document).ready(function() {
 
     });
 
-    //------- Header Scroll Class  js --------//  
+
 
     $(window).scroll(function() {
         if ($(this).scrollTop() > 100) {
@@ -165,16 +152,15 @@ $(document).ready(function() {
         }
     });
 
-    //------- Owl Carusel  js --------//  
 
     $('.active-testimonial-carusel').owlCarousel({
-        items:3,
-        loop:true,
+        items: 3,
+        loop: true,
         margin: 30,
         dots: true,
         autoplayHoverPause: true,
-        smartSpeed:150,         
-        autoplay:true,    
+        smartSpeed: 150,
+        autoplay: true,
         responsive: {
             0: {
                 items: 1
@@ -187,38 +173,37 @@ $(document).ready(function() {
             },
             961: {
                 items: 3,
-            }            
+            }
         }
     });
 
 
-    //------- Timer Countdown  js --------//  
+
 
     if (document.getElementById("count")) {
 
         var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
 
-        // Update the count down every 1 second
+
         var x = setInterval(function() {
 
-            // Get todays date and time
+
             var now = new Date().getTime();
 
-            // Find the distance between now an the count down date
+
             var distance = countDownDate - now;
 
-            // Time calculations for days, hours, minutes and seconds
             var days = Math.floor(distance / (1000 * 60 * 60 * 24));
             var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-            // Display the result in the element with id="count"
+
             document.getElementById("count").innerHTML =
 
                 "<div class='col'><span>" + days + "</span><br> Days " + "</div>" + "<div class='col'><span>" + hours + "</span><br> Hours " + "</div>" + "<div class='col'><span>" + minutes + "</span><br> Minutes " + "</div>" + "<div class='col'><span>" + seconds + "</span><br> Seconds </div>";
 
-            // If the count down is finished, write some text
+
             if (distance < 0) {
                 clearInterval(x);
                 document.getElementById("count").innerHTML = "EXPIRED";
@@ -227,7 +212,7 @@ $(document).ready(function() {
 
     }
 
-    //------- Google Map  js --------//  
+
 
     if (document.getElementById("map")) {
         google.maps.event.addDomListener(window, 'load', init);
@@ -363,7 +348,6 @@ $(document).ready(function() {
         }
     }
 
-    //------- Mailchimp js --------//  
 
     $(document).ready(function() {
         $('#mc_embed_signup').find('form').ajaxChimp();

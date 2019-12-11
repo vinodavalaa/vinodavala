@@ -1,0 +1,150 @@
+.ss-logo {
+    width: 100px;
+}
+
+.d-block {
+    display: block!important;
+}
+
+.d-none {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+    /* height: auto; */
+    width: auto\9;
+    border-radius: 5px;
+    border: 1px solid #BE2631;
+}
+
+.top_add {
+    border: 1px solid #BE2631;
+}
+
+a {
+    color: #7DC314;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    /* transition: all .2s ease-in-out; */
+}
+
+.top-social {
+    margin-bottom: 0;
+}
+
+.link {
+    text-align: right;
+}
+
+.top-link {
+    margin-top: 45px;
+}
+
+.top-link a {
+    color: #BE3621;
+    font-size: 15px;
+}
+
+.link a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.link li:after {
+    content: '/';
+    margin: 0 0 0 12px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.p-relative {
+    position: relative!important;
+}
+
+@media (min-width: 768px) {
+    #menu.navbar {
+        padding: 0;
+        height: auto;
+        margin-top: 5px;
+    }
+}
+
+#menu {
+    background-color: #BE3621;
+    border-radius: 0;
+}
+
+#menu .navbar-collapse {
+    padding: 0;
+}
+
+.c-class2 {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 30px;
+}
+
+.c-class1 {
+    width: 100px;
+    margin-top: 5px;
+}
+
+#menu ul.nav li a {
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+    padding: 14px 18px;
+}
+
+#menu .nav>li>a:hover,
+#menu .nav>li>a:focus {
+    background-color: #fff;
+    color: #000;
+}
+
+#menu ul.top-social a i {
+    color: #fff;
+    line-height: 1.9;
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    background-color: #252628;
+}
+
+#menu .top-social {
+    background-color: #BE3621;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.ss-logo[_ngcontent-c1] {
+    width: 212px;
+    margin-top: 10px;
+}
+
+.top_add[_ngcontent-c1] {
+    margin-top: 10px;
+}
+
+#menu[_ngcontent-c1] .top-social[_ngcontent-c1] {
+    position: relative;
+    right: 14px;
+}
+
+#menu[_ngcontent-c1],
+#menu[_ngcontent-c1] .top-social[_ngcontent-c1] {
+    background-image: -webkit-linear-gradient(0deg, #ade600 0%, #62b900 100%);
+}
