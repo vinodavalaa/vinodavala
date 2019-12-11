@@ -1,5 +1,4 @@
 
-//    Mixins
 
 @mixin transition($args: all 0.3s ease 0s) {
   -webkit-transition: $args;
@@ -29,10 +28,6 @@
           transition-property: $args1, $args2;
 }
 
-
-  // background: -moz-linear-gradient(0deg, #91d1ff, #a387ff);
-  // background: -webkit-linear-gradient(0deg, #91d1ff, #a387ff);
-  // background: -ms-linear-gradient(0deg, #91d1ff, #a387ff);
 
 
 
@@ -104,28 +99,26 @@
           animation: $args;
 }
 
-/* Medium Layout: 1280px */
+
 @mixin medium {
   @media (min-width: 992px) and (max-width: 1400px) {
     @content;
   }
 }
 
-/* Tablet Layout: 768px */
 @mixin tablet {
   @media (min-width: 768px) and (max-width: 1200px) {
     @content;
   }
 }
 
-/* Mobile Layout: 320px */
 @mixin mobile {
   @media (max-width: 767px) {
     @content;
   }
 }
 
-/* Wide Mobile Layout: 480px */
+
 @mixin wide-mobile {
   @media (min-width: 480px) and (max-width: 767px) {
     @content;

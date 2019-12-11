@@ -4,7 +4,7 @@
 
 .banner-content h1 {
     font-size: 35px;
-    margin-bottom: 38px;
+    margin-bottom: 45px;
 }
 
 .deaddd ul {
@@ -256,6 +256,10 @@
     margin-top: 0;
 }
 
+.fa fa-arrow-right:before {
+    content: "\e87a";
+}
+
 .nagesh img {
     width: 100%;
 }
@@ -379,6 +383,18 @@ ul.doc-active li.menu-active a {
     text-align: center;
     margin-bottom: 20px;
     font-size: 18px;
+}
+
+.color-red {
+    color: red;
+}
+
+.text-align-ul ul {
+    padding-right: 50px;
+}
+
+.text-align-ul ul:last-child {
+    padding-right: 0;
 }
 
 @media(min-width:320px) and (max-width:767px) {

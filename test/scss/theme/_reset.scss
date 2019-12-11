@@ -1,8 +1,6 @@
-/* =================================== */
-/*  Basic Style 
-/* =================================== */
 
-::-moz-selection { /* Code for Firefox */
+
+::-moz-selection { 
     background-color: $primary-color;
     color: $white;
 }
@@ -10,25 +8,25 @@
     background-color: $primary-color;
     color: $white;
 }
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+::-webkit-input-placeholder { 
     color:    #777777;
     font-weight: 300;
 }
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+:-moz-placeholder { 
    color:    #777777;
    opacity:  1;
    font-weight: 300;
 }
-::-moz-placeholder { /* Mozilla Firefox 19+ */
+::-moz-placeholder { 
    color:    #777777;
    opacity:  1;
    font-weight: 300;
 }
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
+:-ms-input-placeholder { 
    color:    #777777;
    font-weight: 300;
 }
-::-ms-input-placeholder { /* Microsoft Edge */
+::-ms-input-placeholder { 
    color:    #777777;
    font-weight: 300;
 }
@@ -39,8 +37,7 @@ body {
     font-weight: 300;
     line-height: 1.625em;
     position: relative;
-    // -webkit-font-smoothing: antialiased;
-    // -moz-osx-font-smoothing: grayscale;
+    
 }
 ol, ul {
     margin: 0;
@@ -80,10 +77,7 @@ a, a:focus, a:hover {
     margin: 0;
     padding: 60px;
 }
-/**
- *  Typography
- *
- **/
+
 .btn i, .btn-large i, .btn-floating i, .btn-large i, .btn-flat i {
   font-size: 1em;
   line-height: inherit;
@@ -120,15 +114,7 @@ h6, .h6 { font-size: 14px; color: $title-color;}
 td, th {
     border-radius: 0px;
 }
-/**
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    contenteditable attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that are clearfixed.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
+
 .clear {
     &::before,
     &::after {
@@ -157,7 +143,6 @@ td, th {
 .fw500       {font-weight: 500;}
 .f700        {font-weight: 700;}
 .fsi         {font-style: italic;}
-// margin top
 .mt-10       {margin-top: 10px;}
 .mt-15       {margin-top: 15px;}
 .mt-20       {margin-top: 20px;}
@@ -172,7 +157,6 @@ td, th {
 .mt-100       {margin-top: 100px;}
 .mt-120       {margin-top: 120px;}
 .mt-150       {margin-top: 150px;}
-// margin-left
 .ml-0        {margin-left: 0 !important; }
 .ml-5        {margin-left: 5px !important;}
 .ml-10       {margin-left: 10px;}
@@ -180,7 +164,7 @@ td, th {
 .ml-20       {margin-left: 20px;}
 .ml-30       {margin-left: 30px;}
 .ml-50       {margin-left: 50px;}
-// margin-right
+
 .mr-0        {margin-right: 0 !important; }
 .mr-5        {margin-right: 5px !important;}
 .mr-15       {margin-right: 15px;}
@@ -188,7 +172,7 @@ td, th {
 .mr-20       {margin-right: 20px;}
 .mr-30       {margin-right: 30px;}
 .mr-50       {margin-right: 50px;}
-// margin-bottom
+
 .mb-0        {margin-bottom: 0px;}
 .mb-0-i      {margin-bottom: 0px !important;}
 .mb-5        {margin-bottom: 5px;}
@@ -204,7 +188,7 @@ td, th {
 .mb-80       {margin-bottom: 80px;}
 .mb-90       {margin-bottom: 90px;}
 .mb-100      {margin-bottom: 100px;}
-// padding-top
+
 .pt-0        {padding-top: 0px;}
 .pt-10       {padding-top: 10px;}
 .pt-15       {padding-top: 15px;}
@@ -221,7 +205,7 @@ td, th {
 .pt-120      {padding-top: 120px;}
 .pt-150      {padding-top: 150px;}
 .pt-170      {padding-top: 170px;}
-// padding-bottom
+
 .pb-0        {padding-bottom: 0px;}
 .pb-10       {padding-bottom: 10px;}
 .pb-15       {padding-bottom: 15px;}
@@ -237,15 +221,14 @@ td, th {
 .pb-100      {padding-bottom: 100px;}
 .pb-120      {padding-bottom: 120px;}
 .pb-150      {padding-bottom: 150px;}
-// padding-Right
+
 .pr-30       {padding-right: 30px}
 .pl-30       {padding-left: 30px}
 .pl-90       {padding-left: 90px}
 
-// padding
 .p-40 {padding: 40px;}
 
-// floating
+
 .float-left {
     float: left;
 }
