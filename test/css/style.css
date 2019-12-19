@@ -4,7 +4,7 @@
 
 .banner-content h1 {
     font-size: 35px;
-    margin-bottom: 45px;
+    margin-bottom: 54px;
 }
 
 .deaddd ul {
@@ -13,6 +13,10 @@
 
 .deaddd img {
     width: 450px !important;
+}
+
+.footer-area .col-lg-6.col-md-12+.col-lg-6.col-md-12 h6 {
+    margin-bottom: 15px;
 }
 
 .bullet-alignment-1 {
@@ -398,8 +402,11 @@ ul.doc-active li.menu-active a {
 }
 
 @media(min-width:320px) and (max-width:767px) {
+    body {
+        overflow-x: hidden;
+    }
     iframe {
-        width: 385px !important;
+        width: 100%;
     }
     .banner-content {
         bottom: 0;
@@ -436,5 +443,82 @@ ul.doc-active li.menu-active a {
     }
     .only-mobile p {
         margin-top: 20px;
+    }
+    .threeset ul.main-set li {
+        width: 100%;
+        text-decoration: none;
+        font-size: 18px;
+        list-style-type: disc;
+        margin: 10px 10px 10px 24px;
+    }
+    .section-gap {
+        padding: 30px 0;
+    }
+    .pb-70 {
+        padding-bottom: 5px;
+    }
+    .pb-60 {
+        padding-bottom: 20px;
+    }
+    .about-us .section-gap {
+        padding: 30px 0;
+    }
+    .only-mobile .txt-align {
+        margin-top: 0;
+    }
+    .psycho-body .text-adjuxt,
+    .addiction .text-adjuxt {
+        display: block;
+    }
+    .addiction .text-align-ul ul {
+        padding-right: 0;
+    }
+    .psycho-body .text-adjuxt .bullet-alignment.extra {
+        margin-left: 0;
+    }
+    .psycho-body .text-adjuxt .bullet-alignment:first-child {
+        margin-bottom: 0;
+    }
+    .mobile-img-align {
+        flex-direction: column;
+    }
+    .bullet-alignment-mobil {
+        margin-bottom: 15px;
+    }
+    .mobile-img-align img,
+    .img-aln {
+        margin-bottom: 20px;
+    }
+    .deadd img {
+        width: 100%;
+    }
+    .counce-text,
+    .faclities {
+        margin-top: 0;
+    }
+    .bullet-alignment.txt-bot {
+        margin-bottom: 0;
+    }
+    .about-us .section-gap.facility {
+        padding: 30px 0;
+    }
+    .facility .only-mobile:last-child {
+        margin-top: 10px;
+    }
+    .about-content h1 {
+        font-size: 35px;
+    }
+    .only-mobile.txt-dect {
+        flex-direction: column;
+    }
+    .alignImg {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .alignImg p {
+        margin-bottom: 20px;
+    }
+    .txesAlign p {
+        margin-top: 10px;
     }
 }

@@ -52,9 +52,9 @@ $(document).ready(function() {
             'id': ''
         });
         $('body').append($mobile_nav);
-        $('body').prepend('<button type="button" id="mobile-nav-toggle"><i class="lnr lnr-menu"></i></button>');
+        $('body').prepend('<button type="button" id="mobile-nav-toggle"><i class="fa fa-bars" aria-hidden="true"></i></button>');
         $('body').append('<div id="mobile-body-overly"></div>');
-        $('#mobile-nav').find('.menu-has-children').prepend('<i class="lnr lnr-chevron-down"></i>');
+        $('#mobile-nav').find('.menu-has-children').prepend('<i class="fa fa-angle-down" aria-hidden="true"></i>');
 
         $(document).on('click', '.menu-has-children i', function(e) {
             $(this).next().toggleClass('menu-item-active');
