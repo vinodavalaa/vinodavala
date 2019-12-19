@@ -4,7 +4,7 @@
 
 .banner-content h1 {
     font-size: 35px;
-    margin-bottom: 38px;
+    margin-bottom: 54px;
 }
 
 .deaddd ul {
@@ -13,6 +13,14 @@
 
 .deaddd img {
     width: 450px !important;
+}
+
+.footer-area .col-lg-6.col-md-12+.col-lg-6.col-md-12 h6 {
+    margin-bottom: 15px;
+}
+
+.bullet-alignment-1 {
+    margin-top: 20px;
 }
 
 .testmonials-align .nagesh img {
@@ -209,9 +217,6 @@
     margin-bottom: 20px;
 }
 
-
-/* mindset */
-
 .threeset ul.main-set {
     margin: 0 auto;
 }
@@ -255,6 +260,10 @@
     margin-top: 0;
 }
 
+.fa fa-arrow-right:before {
+    content: "\e87a";
+}
+
 .nagesh img {
     width: 100%;
 }
@@ -267,16 +276,50 @@
 
 .addict {
     margin-bottom: 20px;
-    ;
+}
+
+.text-bookalign img {
+    margin-bottom: 15px;
+    height: 150px;
+}
+
+.text-bookalign p {
+    margin-bottom: 0;
 }
 
 .text-adjuxt {
     display: flex;
 }
 
-;
+.extra {
+    margin-left: 40px;
+}
+
+.about-us .section-gap.facility {
+    padding: 54px 0 35px;
+}
+
+.font-text,
+.font-text b {
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+}
+
+.txt {
+    margin-right: 25px;
+}
+
 .row.only-mobile.topAlign:last-child {
     border: none;
+}
+
+.bullet-alignment {
+    margin-bottom: 15px;
+}
+
+.bullet-alignment-img img {
+    height: 430px;
 }
 
 .pb-40 {
@@ -346,9 +389,24 @@ ul.doc-active li.menu-active a {
     font-size: 18px;
 }
 
+.color-red {
+    color: red;
+}
+
+.text-align-ul ul {
+    padding-right: 50px;
+}
+
+.text-align-ul ul:last-child {
+    padding-right: 0;
+}
+
 @media(min-width:320px) and (max-width:767px) {
+    body {
+        overflow-x: hidden;
+    }
     iframe {
-        width: 385px !important;
+        width: 100%;
     }
     .banner-content {
         bottom: 0;
@@ -385,5 +443,82 @@ ul.doc-active li.menu-active a {
     }
     .only-mobile p {
         margin-top: 20px;
+    }
+    .threeset ul.main-set li {
+        width: 100%;
+        text-decoration: none;
+        font-size: 18px;
+        list-style-type: disc;
+        margin: 10px 10px 10px 24px;
+    }
+    .section-gap {
+        padding: 30px 0;
+    }
+    .pb-70 {
+        padding-bottom: 5px;
+    }
+    .pb-60 {
+        padding-bottom: 20px;
+    }
+    .about-us .section-gap {
+        padding: 30px 0;
+    }
+    .only-mobile .txt-align {
+        margin-top: 0;
+    }
+    .psycho-body .text-adjuxt,
+    .addiction .text-adjuxt {
+        display: block;
+    }
+    .addiction .text-align-ul ul {
+        padding-right: 0;
+    }
+    .psycho-body .text-adjuxt .bullet-alignment.extra {
+        margin-left: 0;
+    }
+    .psycho-body .text-adjuxt .bullet-alignment:first-child {
+        margin-bottom: 0;
+    }
+    .mobile-img-align {
+        flex-direction: column;
+    }
+    .bullet-alignment-mobil {
+        margin-bottom: 15px;
+    }
+    .mobile-img-align img,
+    .img-aln {
+        margin-bottom: 20px;
+    }
+    .deadd img {
+        width: 100%;
+    }
+    .counce-text,
+    .faclities {
+        margin-top: 0;
+    }
+    .bullet-alignment.txt-bot {
+        margin-bottom: 0;
+    }
+    .about-us .section-gap.facility {
+        padding: 30px 0;
+    }
+    .facility .only-mobile:last-child {
+        margin-top: 10px;
+    }
+    .about-content h1 {
+        font-size: 35px;
+    }
+    .only-mobile.txt-dect {
+        flex-direction: column;
+    }
+    .alignImg {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .alignImg p {
+        margin-bottom: 20px;
+    }
+    .txesAlign p {
+        margin-top: 10px;
     }
 }
